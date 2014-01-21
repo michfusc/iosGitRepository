@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0007FF11188ED83F00597F6C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0007FF10188ED83F00597F6C /* ViewController.xib */; };
 		0075FFBE1886AE06002C518B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0075FFBD1886AE06002C518B /* Foundation.framework */; };
 		0075FFC01886AE06002C518B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0075FFBF1886AE06002C518B /* CoreGraphics.framework */; };
 		0075FFC21886AE06002C518B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0075FFC11886AE06002C518B /* UIKit.framework */; };
 		0075FFC81886AE06002C518B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0075FFC61886AE06002C518B /* InfoPlist.strings */; };
 		0075FFCA1886AE06002C518B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075FFC91886AE06002C518B /* main.m */; };
 		0075FFCE1886AE06002C518B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075FFCD1886AE06002C518B /* AppDelegate.m */; };
-		0075FFD11886AE06002C518B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0075FFCF1886AE06002C518B /* Main.storyboard */; };
 		0075FFD41886AE06002C518B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0075FFD31886AE06002C518B /* ViewController.m */; };
 		0075FFD61886AE06002C518B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0075FFD51886AE06002C518B /* Images.xcassets */; };
 		0075FFDD1886AE06002C518B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0075FFDC1886AE06002C518B /* XCTest.framework */; };
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0007FF10188ED83F00597F6C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		0075FFBA1886AE06002C518B /* ios_template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0075FFBD1886AE06002C518B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0075FFBF1886AE06002C518B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +45,6 @@
 		0075FFCB1886AE06002C518B /* ios_template-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios_template-Prefix.pch"; sourceTree = "<group>"; };
 		0075FFCC1886AE06002C518B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0075FFCD1886AE06002C518B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0075FFD01886AE06002C518B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0075FFD21886AE06002C518B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0075FFD31886AE06002C518B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0075FFD51886AE06002C518B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,9 +114,9 @@
 			children = (
 				0075FFCC1886AE06002C518B /* AppDelegate.h */,
 				0075FFCD1886AE06002C518B /* AppDelegate.m */,
-				0075FFCF1886AE06002C518B /* Main.storyboard */,
 				0075FFD21886AE06002C518B /* ViewController.h */,
 				0075FFD31886AE06002C518B /* ViewController.m */,
+				0007FF10188ED83F00597F6C /* ViewController.xib */,
 				0075FFD51886AE06002C518B /* Images.xcassets */,
 				0075FFC41886AE06002C518B /* Supporting Files */,
 			);
@@ -229,8 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0075FFD61886AE06002C518B /* Images.xcassets in Resources */,
+				0007FF11188ED83F00597F6C /* ViewController.xib in Resources */,
 				0075FFC81886AE06002C518B /* InfoPlist.strings in Resources */,
-				0075FFD11886AE06002C518B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +280,6 @@
 				0075FFC71886AE06002C518B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0075FFCF1886AE06002C518B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0075FFD01886AE06002C518B /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		0075FFE51886AE06002C518B /* InfoPlist.strings */ = {

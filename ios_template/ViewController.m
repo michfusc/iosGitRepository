@@ -20,6 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
 	//non commentare!!!
     NSLog(@"CIAO");
+    NSLog(@"CIAO   Dona");
   
 }
 
